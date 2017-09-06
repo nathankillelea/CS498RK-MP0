@@ -1,3 +1,17 @@
+/* reference: https://www.w3schools.com/css/css_align.asp and https://stackoverflow.com/questions/12989931/body-height-100-displaying-vertical-scrollbar */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  /* Your CSS here. */
+  background-color: pink;
+  position: relative;
+}
+
+.centerMe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
